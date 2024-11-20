@@ -4,7 +4,7 @@
 
 Desenvolver uma aplicação em Laravel que gerencie um sistema de tarefas (To-Do List).
 
-- **Prazo**: 1 semana (caso precise de mais tempo, nos avise e daremos mais uma semana de prazo).
+- **Prazo**: 2 semanas;
 
 ---
 
@@ -12,7 +12,6 @@ Desenvolver uma aplicação em Laravel que gerencie um sistema de tarefas (To-Do
 
 1. **Gerenciamento de Tarefas**:
     - O usuário pode **criar**, **editar**, **excluir** e **marcar como concluída** uma tarefa.
-    - Após **uma semana** marcada como concluída, a tarefa deve ser **excluída automaticamente** do banco de dados.
 
 2. **Filtros**:
     - Filtro por categorias.
@@ -33,6 +32,10 @@ Desenvolver uma aplicação em Laravel que gerencie um sistema de tarefas (To-Do
 1. **Testes**:
     - Implementar testes automatizados.
 
+2. **Deletar Tarefas Automaticamente**
+    - Após **uma semana** marcada como concluída, a tarefa deve ser **excluída automaticamente** do banco de dados
+    - Configurar **Job** ou **Command** no Laravel para excluir automaticamente as tarefas concluídas após uma semana (da tarefa finalizada).
+
 ---
 
 ## Detalhamento do Projeto
@@ -40,16 +43,15 @@ Desenvolver uma aplicação em Laravel que gerencie um sistema de tarefas (To-Do
 ### **Requisitos Técnicos**
 
 1. **Backend**
-    - Desenvolver utilizando Laravel `11.x`.
-    - Validações nos formulários (ex.: título da tarefa obrigatório, e-mail único).
-    - Middleware para rotas que exigem autenticação.
+    - Desenvolver utilizando Laravel `11.x`;
+    - Validações nos formulários (ex.: título da tarefa obrigatório, e-mail único);
+    - Middleware para rotas que exigem autenticação;
+    - Pode usar Livewire;
+    - Usar as `migrations` do Laravel.
 
 2. **Frontend**
     - Pode usar Blade ou algum framework JS.
     - Interface simples para as funcionalidades listadas.
-
-3. **Tarefas Automáticas**
-    - Configurar **Job** ou **Command** no Laravel para excluir automaticamente as tarefas concluídas após uma semana.
 
 4. **Documentação**
     - Adicionar um arquivo `README.md` com as seguintes informações:
@@ -71,7 +73,7 @@ Desenvolver uma aplicação em Laravel que gerencie um sistema de tarefas (To-Do
     - Liste as funcionalidades implementadas e como testá-las.
 
 3. **Contato**:
-    - Caso surjam dúvidas ou precise de mais prazo, entre em contato.
+    - Caso surjam dúvidas ou precise de mais prazo, entre em contato através do email `developer@advbox.com.br`.
 
 ---
 
@@ -81,17 +83,17 @@ Desenvolver uma aplicação em Laravel que gerencie um sistema de tarefas (To-Do
     - Estrutura do projeto e clareza na organização dos arquivos.
 
 2. **Qualidade do Código**
-    - Uso correto dos recursos do Laravel.
+    - Uso correto dos recursos do Laravel;
     - Implementação das relações entre entidades.
 
 3. **Funcionalidades**
     - Completação de todos os requisitos obrigatórios.
 
 4. **Documentação**
-    - Clareza e completude no arquivo `README.md`.
+    - Clareza e estruturação do arquivo `README.md`.
 
 5. **Boas Práticas**
-    - Uso de padrões do Laravel.
+    - Uso de padrões do Laravel;
     - Código limpo e legível.
 
 ---
