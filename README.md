@@ -11,19 +11,24 @@ Desenvolver uma aplicação em Laravel que gerencie um sistema de tarefas (To-Do
 ## Funcionalidades Obrigatórias
 
 1. **Gerenciamento de Tarefas**:
+    - Permitir o registro e autenticação de usuários;
     - O usuário pode **criar**, **editar**, **excluir** e **marcar como concluída** uma tarefa.
+    - O usuário só pode ver as tarefas atribuidas a ele.
 
 2. **Filtros**:
-    - Filtro por categorias.
+    - Filtro por categorias;
     - Filtro para exibir somente tarefas concluídas.
 
 3. **CRUD Completo**:
-    - CRUD para usuários, tarefas e categorias.
+    - Criação de `usuários`;
+    - CRUD para `tarefas`;
+    - CRUD para `categorias`.
 
 4. **Relacionamentos**:
-    - **Um usuário** pode ter **várias tarefas**.
-    - Cada tarefa pode pertencer a vários **usuários**.
-    - Cada tarefa pode pertencer a **uma categoria**.
+    - **Um usuário** pode ter **várias tarefas**;
+    - Cada tarefa pode pertencer a vários **usuários**;
+    - Cada tarefa pode pertencer a **uma categoria**;
+    - Cada categoria deve pertencer a um usuário;
 
 ---
 
